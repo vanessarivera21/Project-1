@@ -1,0 +1,27 @@
+/**
+ * Custom CSS
+ *
+ * Add this to your Tailwind CSS file,
+ * or to a separate, custom CSS file.
+ *
+ * Update the background images to suit
+ * your project.
+ */
+.bg-header {
+  background: url(https://picsum.photos/1920/1920/?random) center center no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-quote {
+  background: url(https://picsum.photos/1600/1600/?random) center center no-repeat;
+  background-attachment: fixed;
+}
+
+/* load custom fonts*/
+
+.font-serif{
+font-family: 'Noto Serif JP', sans-serif;
+}
+.font.sans{
+font-family: 'Indie Flower', cursive;
+}
