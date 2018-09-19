@@ -1,5 +1,5 @@
 /**
- * Custom CSS for index page
+ * Custom CSS
  *
  * Add this to your Tailwind CSS file,
  * or to a separate, custom CSS file.
@@ -8,16 +8,37 @@
  * your project.
  */
 .bg-header {
-  background: url(images/redcurtain.jpg) center center no-repeat;
-  background-attachment: fixed; 
+  background: url(images/image1.jpg) center center no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 
 .bg-quote {
-  background: url(images/broadway.jpg) center center no-repeat;
+  background: url(images/image2.jpg) center center no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
+
+.mama-mia {
+   background: url(images/redcurtain.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.hamilton {
+  background: url(images/hamilton.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+.wicked {
+  background: url(images/wicked.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
 
 /* load custom fonts*/
 
