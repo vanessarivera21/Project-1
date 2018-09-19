@@ -8,27 +8,94 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP|Noto+Serif+KR" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Limelight|Open+Sans|Roboto+Condensed" rel="stylesheet">
 
   <link rel="stylesheet" href="screen.css">
 
-  <title>Project 1</title>
 
 </head>
 
 
 <body>
 
+  <header class="border-b md:flex md:items-center md:justify-between p-4 pb-0 shadow-lg md:pb-4">
+  
+  <!-- Logo text or image -->
+  <div class="flex items-center justify-between mb-4 md:mb-0">
+    <h1 class="leading-none text-2xl text-grey-darkest">
+      <a class="no-underline text-grey-darkest hover:text-black" href="#">
+        Broadway Shows
+      </a>
+    </h1>
+
+    <a class="text-black hover:text-orange md:hidden" href="#">
+      <i class="fa fa-2x fa-bars"></i>
+    </a>
+  </div>
+  <!-- END Logo text or image -->
+  
+  <!-- Search field -->
+  <form class="mb-4 w-full md:mb-0 md:w-1/4">
+    <label class="hidden" for="search-form">Search</label>
+    <input class="bg-grey-lightest border-2 focus:border-orange p-2 rounded-lg shadow-inner w-full" placeholder="Search" type="text">
+    <button class="hidden">Submit</button>
+  </form>
+  <!-- END Search field -->
+  
+  <!-- Global navigation -->
+  <nav>
+    <ul class="list-reset md:flex md:items-center">
+      <li class="md:ml-4">
+        <a class="block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="part1.html"> 
+          Part 1
+        </a>
+      </li>
+      <li class="md:ml-4">
+        <a class="border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="part2.html">
+          Part 2
+        </a>
+      </li>
+      <li class="md:ml-4">
+        <a class="border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="part3.html">
+          Part 3
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- END Global navigation -->
+
+</header>
+
+<!-- Video from https://coverr.co/ -->
+<article>
+  <div class="video-wrapper">
+    <h1 class="leading-none p-4 text-white text-3xl uppercase video-title md:p-8 md:text-5xl">
+      Video Background
+    </h1>
+    <video autoplay loop muted class="w-full">
+      <source src="video/west_broadway.mp4" type="video/mp4" />Your browser does not support the video tag.
+      <source src="video/west_broadway.webm" type="video/webm" />Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="leading-normal mx-auto my-12 px-4 max-w-md">
+    <p class="mb-4 md:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem error iure quo ea dolore, iste ad assumenda ducimus sunt. Rerum nulla ipsum unde exercitationem ea atque explicabo tempore perferendis delectus?</p>
+    <p class="md:text-xl">Laudantium cumque mollitia maxime, magni pariatur blanditiis laborum quisquam. Iure veniam deserunt debitis minus animi at fugiat doloremque a tempore obcaecati adipisci voluptate molestiae, amet odio, unde velit! Dolore, molestiae.</p>
+  </div>
+</article>
+
+
 <header class="bg-header flex items-center justify-center h-screen pb-12">
   <div class="bg-white font-serif mx-4 p-4 text-center md:p-8">
     <p class="italic text-sm">
-      November 1, 2019
+      November 1, 2018
     </p>
     <h1 class="text-5xl uppercase">
-      Article Title
+      Broadyway
     </h1>
     <p class="text-lg">
-      Author Name
+      by: Vanessa Rivera
+      
     </p>
   </div>
 </header>
@@ -63,6 +130,138 @@
   <p class="mb-4 text-lg">Mollitia temporibus maxime placeat culpa distinctio possimus, praesentium, assumenda quasi eum voluptate magni aspernatur aperiam. Eius voluptates rem eum, facilis inventore hic provident pariatur nam non! At odit iste cum.</p>
 </div>
 
-  
+<div class="container my-12 mx-auto px-4 md:px-12">
+    <div class="flex flex-wrap -mx-1 lg:-mx-4">
+
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg">
+
+                <a href="part1.html">
+                    <img alt="" class="block h-auto w-full" src="images/image1.jpg">
+
+                </a>
+
+                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg">
+                        <a class="no-underline hover:underline text-black" href="part1.html">
+                            Mama Mia
+                        </a>
+                    </h1>
+                    <p class="text-grey-darker text-sm">
+                        11/1/19
+                    </p>
+                </header>
+
+                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                    <a class="flex items-center no-underline hover:underline text-black"
+                     href="part1.html">
+                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
+                        <p class="ml-2 text-sm">
+                            Lorem Ipsum
+                        </p>
+                    </a>
+                    <a class="no-underline text-grey-darker hover:text-red-dark" href="part1.html">
+                        <span class="hidden">Like</span>
+                        <i class="fa fa-heart"></i>
+                    </a>
+                </footer>
+
+            </article>
+            <!-- END Article -->
+
+        </div>
+        <!-- END Column -->
+
+        
+
+        
+
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg">
+
+                <a href="part2.html">
+                    <img alt="" class="block h-auto w-full" src="images/image2.jpg">
+                </a>
+
+                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg">
+                        <a class="no-underline hover:underline text-black" href="part2.html">
+                            Hamilton
+                        </a>
+                    </h1>
+                    <p class="text-grey-darker text-sm">
+                        11/1/19
+                    </p>
+                </header>
+
+                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                    <a class="flex items-center no-underline hover:underline text-black" href="part2.html">
+                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
+                        <p class="ml-2 text-sm">
+                            Lorem Ipsum
+                        </p>
+                    </a>
+                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                        <span class="hidden">Like</span>
+                        <i class="fa fa-heart"></i>
+                    </a>
+                </footer>
+
+            </article>
+            <!-- END Article -->
+
+        </div>
+        <!-- END Column -->
+
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg">
+
+                <a href="part3.html">
+                    <img alt="" class="block h-auto w-full" src="images/image3.jpg">
+                </a>
+
+                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg">
+                        <a class="no-underline hover:underline text-black" href="part3.html">
+                            Wicked
+                        </a>
+                    </h1>
+                    <p class="text-grey-darker text-sm">
+                        11/1/19
+                    </p>
+                </header>
+
+                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                    <a class="flex items-center no-underline hover:underline text-black" href="Part3.html">
+                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
+                        <p class="ml-2 text-sm">
+                            Lorem Ipsum
+                        </p>
+                    </a>
+                    <a class="no-underline text-grey-darker hover:text-red-dark" href="Part3.html">
+                        <span class="hidden">Like</span>
+                        <i class="fa fa-heart"></i>
+                    </a>
+                </footer>
+
+            </article>
+            <!-- END Article -->
+
+        </div>
+        <!-- END Column -->
+
+    </div>
+</div>
+
 </body>
+
 </html>

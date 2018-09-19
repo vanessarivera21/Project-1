@@ -8,65 +8,250 @@
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-	<link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP|Noto+Serif+KR" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Limelight|Roboto+Condensed" rel="stylesheet">
 
 	<link rel="stylesheet" href="screen.css">
 
-	<title>Project 1</title>
+	
 
 </head>
 
 
 <body>
 
-	<div class="container mx-auto py-6  px-3 md:py-12 md:px-6">
+<header class="border-b md:flex md:items-center md:justify-between p-4 pb-0 shadow-lg md:pb-4">
+  
+  <!-- Logo text or image -->
+  <div class="flex items-center justify-between mb-4 md:mb-0">
+    <h1 class="leading-none text-2xl text-grey-darkest">
+      <a class="no-underline text-grey-darkest hover:text-black" href="#">
+        Broadway Shows
+      </a>
+    </h1>
 
-		<h1>CTVA 461 Project 1</h1>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sapiente blanditiis expedita, id, adipisci ea autem doloribus reiciendis sint, rem porro libero dolorum. Eos nemo facere repellat molestias ratione! Fugiat.
-		</p>
+    <a class="text-black hover:text-orange md:hidden" href="#">
+      <i class="fa fa-2x fa-bars"></i>
+    </a>
+  </div>
+  <!-- END Logo text or image -->
+  
+  <!-- Search field -->
+  <form class="mb-4 w-full md:mb-0 md:w-1/4">
+    <label class="hidden" for="search-form">Search</label>
+    <input class="bg-grey-lightest border-2 focus:border-orange p-2 rounded-lg shadow-inner w-full" placeholder="Search" type="text">
+    <button class="hidden">Submit</button>
+  </form>
+  <!-- END Search field -->
+  
+  <!-- Global navigation -->
+  <nav>
+    <ul class="list-reset md:flex md:items-center">
+       <li class="md:ml-4">
+        <a class="block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="index.html"> 
+          Home
+        </a>	
+    </li>
+      <li class="md:ml-4">
+        <a class="block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="part1.html"> 
+          Part 1
+        </a>
+      </li>
+      <li class="md:ml-4">
+        <a class="border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="part2.html">
+          Part 2
+        </a>
+      </li>
+      <li class="md:ml-4">
+        <a class="border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-black md:border-none md:p-0" href="part3.html">
+          Part 3
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- END Global navigation -->
 
-			
+</header>
 
-			<div class="flex flex-wrap mt-12 -mx-1 overflow-hidden">
 
-			  <div class="my-1 px-1 w-full overflow-hidden md:w-1/3">
-				<article>
-					<a href="part1.html"> 
-					   <img src="images/image1.jpg" alt="hands holding a rose" class="block h-auto w-full">
-					</a>
-					<header class="lg:flex lg:items-center lg:justify-between my-2">
-					    	<h2 class="text-base">
-					    		<a class="no-underline text-black hover:text-grey-darker" href="part1.html"> 
-					    		Story part one
-					    		</a>
-					    	</h2>
+<header class="bg-header flex items-center justify-center h-screen pb-12">
+  <div class="bg-white font-serif mx-4 p-4 text-center md:p-8">
+    <p class="italic text-sm">
+      November 1, 2018
+    </p>
+    <h1 class="text-5xl uppercase">
+      Broadyway
+    </h1>
+    <p class="text-lg">
+      by: Vanessa Rivera
+      
+    </p>
+  </div>
+</header>
 
-					    	<p class="text-base">
-					    		September 10, 2018
-					    	</p>
-					</header>
-				</article>
-			  </div>
+<div class="font-serif leading-normal mx-auto py-12 px-4 max-w-lg">
+  <p class="mb-6 text-xl md:text-2xl uppercase">This is a simple parallax effect created by setting the background attachment property to a fixed position. This technique is not meant for non-decorative images, videos, etc. as those require additional HTML and CSS to work properly.</p>
+  <p class="mb-4 text-lg">Quae commodi reiciendis dignissimos. Rerum molestiae hic dolores assumenda dolor! Corrupti reiciendis maxime fuga, recusandae obcaecati officia cum temporibus dicta quibusdam praesentium, magni, cumque aperiam iusto sequi illum molestiae non.</p>
+  <p class="mb-4 text-lg">In excepturi repellendus eum, qui corrupti rerum perferendis harum adipisci voluptate? Nihil, quidem deleniti libero officia dicta vel asperiores velit molestiae blanditiis, dolore voluptatibus excepturi laudantium at veniam illo. Dolor!</p>
+  <p class="mb-4 text-lg">Neque laudantium minus doloremque id quas quod sint velit corporis unde dolore accusantium delectus optio consequuntur voluptatem sapiente odit dolorum minima harum tenetur, dolor provident reprehenderit. Ex eum provident harum?</p>
+  <p class="mb-4 text-lg">Mollitia temporibus maxime placeat culpa distinctio possimus, praesentium, assumenda quasi eum voluptate magni aspernatur aperiam. Eius voluptates rem eum, facilis inventore hic provident pariatur nam non! At odit iste cum.</p>
+  <p class="mb-4 text-lg">Cumque voluptatibus laboriosam tempore architecto laudantium sint vitae cupiditate voluptate quod tempora saepe odio quasi dolores possimus non totam unde voluptates corrupti, ducimus ipsa enim officiis ipsum maxime eveniet. Aut!</p>
+  <p class="mb-4 text-lg">Maxime facere ut natus libero incidunt alias quam consectetur, nisi delectus exercitationem ab qui perferendis dolorem sequi veritatis nobis eius quas dolore ducimus atque vel. Doloribus mollitia non pariatur modi?</p>
+  <p class="mb-4 text-lg">Sed in amet a neque, delectus, cupiditate ab assumenda quidem facere molestias vitae itaque soluta reprehenderit dolorem. Deserunt quibusdam, consequatur veniam fugiat ipsam aliquam ea possimus quis officiis enim dolores.</p>
+  <p class="mb-4 text-lg">Exercitationem aperiam veniam perspiciatis iure ad nobis necessitatibus cumque cupiditate obcaecati natus. Neque nostrum maxime id veritatis tempore, a voluptate voluptatem et! A ullam id aliquam? Recusandae deleniti odit fugit!</p>
+  <p class="mb-4 text-lg">Beatae rerum obcaecati consectetur nostrum eos ipsam, accusamus delectus ex maxime neque sit quod repellendus voluptate sunt dolore hic explicabo ea dolorum vero vel quidem illo! Cupiditate sed voluptatibus ullam?</p>
+  <p class="mb-4 text-lg">Modi aliquam facilis adipisci! Soluta eveniet eos omnis, inventore nesciunt, laborum deserunt blanditiis nihil accusamus debitis voluptatibus possimus dolores vero maiores, sed voluptate ut! Facilis possimus vitae consectetur praesentium veritatis.</p>
+  <p class="mb-4 text-lg">Tempore, quaerat accusamus ad nostrum maiores numquam, ea nam sed reiciendis, eveniet perspiciatis. Eos nulla vel consectetur quo nesciunt aspernatur sint nemo cumque optio mollitia, veritatis, tenetur quibusdam eum natus.</p>
+</div>
 
-			  <div class="my-1 px-1 w-full overflow-hidden md:w-1/3">
-			    <a href="part2.html"> 
-			    	<img src="images/image2.jpg" alt="letters and magnifying glass " class="block h-auto w-full">
+<div class="bg-quote container flex items-center justify-center h-screen mx-auto">
+  <blockquote class="bg-black font-serif mx-4 p-4 text-center text-white md:p-8">
+    <p class="font-bold italic text-3xl">
+      &ldquo;Large, bold pull quote. Hats. Very good.&rdquo;
+    </p>
+  </blockquote>
+</div>
 
-			    </a>
-			  </div>
+<div class="font-serif leading-normal mx-auto py-12 px-4 max-w-lg">
+  <p class="mb-4 text-lg">Quae commodi reiciendis dignissimos. Rerum molestiae hic dolores assumenda dolor! Corrupti reiciendis maxime fuga, recusandae obcaecati officia cum temporibus dicta quibusdam praesentium, magni, cumque aperiam iusto sequi illum molestiae non.</p>
+  <p class="mb-4 text-lg">In excepturi repellendus eum, qui corrupti rerum perferendis harum adipisci voluptate? Nihil, quidem deleniti libero officia dicta vel asperiores velit molestiae blanditiis, dolore voluptatibus excepturi laudantium at veniam illo. Dolor!</p>
+  <p class="mb-4 text-lg">Neque laudantium minus doloremque id quas quod sint velit corporis unde dolore accusantium delectus optio consequuntur voluptatem sapiente odit dolorum minima harum tenetur, dolor provident reprehenderit. Ex eum provident harum?</p>
+  <p class="mb-4 text-lg">Mollitia temporibus maxime placeat culpa distinctio possimus, praesentium, assumenda quasi eum voluptate magni aspernatur aperiam. Eius voluptates rem eum, facilis inventore hic provident pariatur nam non! At odit iste cum.</p>
+</div>
 
-			  <div class="my-1 px-1 w-full overflow-hidden md:w-1/3">
-			    <a href="part3.html"> 
-			    	<img src="images/image3.jpg" alt="tea pot pouring into tea cup" class="block h-auto w-full">
+<div class="container my-12 mx-auto px-4 md:px-12">
+    <div class="flex flex-wrap -mx-1 lg:-mx-4">
 
-			    </a>
-			  </div>
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
 
-			</div>
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg">
 
-	</div>
+                <a href="part1.html">
+                    <img alt="" class="block h-auto w-full" src="images/image1.jpg">
 
+                </a>
+
+                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg">
+                        <a class="no-underline hover:underline text-black" href="part1.html">
+                            Mama Mia
+                        </a>
+                    </h1>
+                    <p class="text-grey-darker text-sm">
+                        11/1/19
+                    </p>
+                </header>
+
+                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                    <a class="flex items-center no-underline hover:underline text-black"
+                     href="part1.html">
+                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
+                        <p class="ml-2 text-sm">
+                            Lorem Ipsum
+                        </p>
+                    </a>
+                    <a class="no-underline text-grey-darker hover:text-red-dark" href="part1.html">
+                        <span class="hidden">Like</span>
+                        <i class="fa fa-heart"></i>
+                    </a>
+                </footer>
+
+            </article>
+            <!-- END Article -->
+
+        </div>
+        <!-- END Column -->
+
+        
+
+        
+
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg">
+
+                <a href="part2.html">
+                    <img alt="" class="block h-auto w-full" src="images/image2.jpg">
+                </a>
+
+                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg">
+                        <a class="no-underline hover:underline text-black" href="part2.html">
+                            Hamilton
+                        </a>
+                    </h1>
+                    <p class="text-grey-darker text-sm">
+                        11/1/19
+                    </p>
+                </header>
+
+                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                    <a class="flex items-center no-underline hover:underline text-black" href="part2.html">
+                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
+                        <p class="ml-2 text-sm">
+                            Lorem Ipsum
+                        </p>
+                    </a>
+                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                        <span class="hidden">Like</span>
+                        <i class="fa fa-heart"></i>
+                    </a>
+                </footer>
+
+            </article>
+            <!-- END Article -->
+
+        </div>
+        <!-- END Column -->
+
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg">
+
+                <a href="part3.html">
+                    <img alt="" class="block h-auto w-full" src="images/image3.jpg">
+                </a>
+
+                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg">
+                        <a class="no-underline hover:underline text-black" href="part3.html">
+                            Wicked
+                        </a>
+                    </h1>
+                    <p class="text-grey-darker text-sm">
+                        11/1/19
+                    </p>
+                </header>
+
+                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                    <a class="flex items-center no-underline hover:underline text-black" href="Part3.html">
+                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
+                        <p class="ml-2 text-sm">
+                            Lorem Ipsum
+                        </p>
+                    </a>
+                    <a class="no-underline text-grey-darker hover:text-red-dark" href="Part3.html">
+                        <span class="hidden">Like</span>
+                        <i class="fa fa-heart"></i>
+                    </a>
+                </footer>
+
+            </article>
+            <!-- END Article -->
+
+        </div>
+        <!-- END Column -->
+
+    </div>
+</div>
+
+
+	
 	
 </body>
 </html>
