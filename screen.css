@@ -20,6 +20,14 @@
   background-size: cover;
 }
 
+.bg-quote-2 {
+  background: url(images/ham3.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
 .mama-mia {
    background: url(images/mamamia.jpg) center center no-repeat;
   background-attachment: fixed;
